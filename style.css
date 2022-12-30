@@ -4,10 +4,14 @@ padding: 0;
 box-sizing: border-box;
 transition: ease-in-out 0.3s;
 }
+body{
+    width: 100%;
+    height: 100vh;
+}
 
 .header{
     width: 100%;
-    height: ;
+    height: 10%;
     background-color: cadetblue;
     display: flex;
     justify-content: space-between;
@@ -48,7 +52,7 @@ h2{
     margin: 20px;
     color: azure;
 }
-p{
+.sect{
     color: azure;
 }
 .div1{
@@ -60,13 +64,16 @@ p{
     align-items: center;
     padding: 15px;
 }
+.sub{
+    color: azure;
+}
 input , button {
     padding: 7px;
     border-radius: 15px;
 }
 p{
     font-size: 20px;
-    color: azure;
+    
 }
 button{
    background-color: rgb(255, 104, 3); 
@@ -74,12 +81,33 @@ button{
    border-radius: 10px;
 }
 .paths{
-    width: 100px;
+    width: 100%;
     height: 300px;
-  background-color: rgb(122, 73, 122);;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    text-align: center;
+}
+div img{
+    width: 120px;
+    padding: 10px;
+
+}
+h4{
+    padding: 15px;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foot{
+    color: azure;
+    padding: 15px;
 }
 
 /* Home Finished */
