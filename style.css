@@ -27,7 +27,7 @@ a{
     margin: 10px;
 }
 a:hover{
-    color:palegoldenrod;
+    color: rgb(122, 73, 122);
     text-decoration: underline;
 }
 /* Home Start */
@@ -59,6 +59,19 @@ p{
     justify-content: space-between;
     align-items: center;
     padding: 15px;
+}
+input , button {
+    padding: 7px;
+    border-radius: 15px;
+}
+p{
+    font-size: 20px;
+    color: azure;
+}
+button{
+   background-color: rgb(255, 104, 3); 
+   padding: 7px;
+   border-radius: 10px;
 }
 
 /* Home Finished */
