@@ -2,4 +2,28 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+transition: ease-in-out 0.3s;
+}
+
+.header{
+    width: 100%;
+    height: ;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+span{
+    color: palegoldenrod;
+}
+a{
+    font-size: 26px;
+    text-decoration: none;
+    color: cornsilk;
+    margin: 10px;
+}
+a:hover{
+    color:palegoldenrod;
+    text-decoration: underline;
 }
